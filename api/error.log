@@ -1,0 +1,178 @@
+[31m2025-03-12 10:30:50 error: [AuthService] service - login error secretOrPrivateKey must have a value [39m
+[31mError: secretOrPrivateKey must have a value[39m
+[31m    at module.exports [as sign] (E:\projetos\backend-aws\node_modules\jsonwebtoken\sign.js:111:20)[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:24:31)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[31m2025-03-12 10:33:03 error: [AuthService] service - login error secretOrPrivateKey must have a value [39m
+[31mError: secretOrPrivateKey must have a value[39m
+[31m    at module.exports [as sign] (E:\projetos\backend-aws\node_modules\jsonwebtoken\sign.js:111:20)[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:24:31)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[31m2025-03-12 11:16:23 error: [AuthService] service - refreshToken error Cannot access 'refreshToken' before initialization [39m
+[31mReferenceError: Cannot access 'refreshToken' before initialization[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:45)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:42:9)[39m
+[31m2025-03-12 11:17:19 error: [AuthService] service - refreshToken error Cannot access 'refreshToken' before initialization [39m
+[31mReferenceError: Cannot access 'refreshToken' before initialization[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:45)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:42:9)[39m
+[31m2025-03-12 11:18:40 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m2025-03-12 11:19:38 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m2025-03-12 11:21:07 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:43:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m2025-03-12 11:22:03 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m2025-03-12 11:23:53 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:39:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m2025-03-12 11:27:10 error: [AuthService] service - refreshToken error Cannot read properties of undefined (reading 'id') [39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:45:63)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:44:9)[39m
+[31m2025-03-12 11:29:56 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:32:31 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:14[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m2025-03-12 11:33:56 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:35:07 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:35:07 error: [AuthController] controller - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:35:07 error: invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m

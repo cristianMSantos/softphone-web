@@ -1,0 +1,13 @@
+|__softphone
+    |__asterisk
+        |__configs
+        |__mariadb
+        |__odbc
+        |__odbc-mariadb_3.1.15-3_amd64.deb
+        |__entrypoint.sh
+        |__Dockerfile
+    |__web
+        |__Dockerfile
+    |__api
+        |__Dockerfile
+    |__docker-compose.yml

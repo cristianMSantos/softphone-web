@@ -1,0 +1,398 @@
+[32m2025-03-09 16:59:16 info: [AuthController] controller - login init [39m
+[32m2025-03-09 16:59:16 info: [AuthController] controller - login finish [39m
+[32m2025-03-09 17:03:24 info: [AuthController] controller - login init [39m
+[32m2025-03-09 17:03:24 info: [AuthController] controller - login finish [39m
+[32m2025-03-09 23:51:38 info: [AuthController] controller - login init [39m
+[32m2025-03-09 23:51:38 info: [AuthController] controller - login finish [39m
+ [32m2025-03-12 10:18:30 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:18:30 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:18:30 info: [AuthRepository] repository - findByEmail init [39m
+[31m2025-03-12 10:18:32 error: next is not a function [39m
+[31mTypeError: next is not a function[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:28:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:23:13 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:23:13 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:23:13 info: [AuthRepository] repository - findByEmail init [39m
+[31m2025-03-12 10:23:14 error: next is not a function [39m
+[31mTypeError: next is not a function[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:30:13)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:26:12 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:26:12 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:26:12 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:26:13 info: [AuthRepository] repository - findByEmail finish [39m
+[31m2025-03-12 10:26:13 error: next is not a function [39m
+[31mTypeError: next is not a function[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:30:13)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:27:58 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:27:58 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:27:58 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:28:00 info: [AuthRepository] repository - findByEmail finish [39m
+[31m2025-03-12 10:28:00 error: next is not a function [39m
+[31mTypeError: next is not a function[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:31:13)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:30:21 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:30:21 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:30:21 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:30:23 info: [AuthRepository] repository - findByEmail finish [39m
+[31m2025-03-12 10:30:23 error: [AuthService] service - login error secretOrPrivateKey must have a value [39m
+[31mError: secretOrPrivateKey must have a value[39m
+[31m    at module.exports [as sign] (E:\projetos\backend-aws\node_modules\jsonwebtoken\sign.js:111:20)[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:24:31)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:30:23 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:30:50 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:30:50 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:30:50 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:30:50 info: [AuthRepository] repository - findByEmail finish [39m
+[31m2025-03-12 10:30:50 error: [AuthService] service - login error secretOrPrivateKey must have a value [39m
+[31mError: secretOrPrivateKey must have a value[39m
+[31m    at module.exports [as sign] (E:\projetos\backend-aws\node_modules\jsonwebtoken\sign.js:111:20)[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:24:31)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:30:50 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:33:02 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:33:02 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:33:02 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:33:03 info: [AuthRepository] repository - findByEmail finish [39m
+[31m2025-03-12 10:33:03 error: [AuthService] service - login error secretOrPrivateKey must have a value [39m
+[31mError: secretOrPrivateKey must have a value[39m
+[31m    at module.exports [as sign] (E:\projetos\backend-aws\node_modules\jsonwebtoken\sign.js:111:20)[39m
+[31m    at AuthService.login (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:24:31)[39m
+[31m    at async login (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:13:27)[39m
+[32m2025-03-12 10:33:03 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:36:30 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:36:30 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:36:30 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:36:32 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 10:36:32 info: [AuthService] service - login finish [39m
+[32m2025-03-12 10:36:32 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:36:45 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:36:45 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:36:45 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:36:46 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 10:36:46 info: [AuthService] service - login finish [39m
+[32m2025-03-12 10:36:46 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:48:33 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:48:33 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:48:33 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:48:35 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 10:48:35 info: [AuthService] service - login finish [39m
+[32m2025-03-12 10:48:35 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:49:54 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:49:54 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:49:54 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:49:56 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 10:49:56 info: [AuthService] service - login finish [39m
+[32m2025-03-12 10:49:56 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 10:50:19 info: [AuthController] controller - login init [39m
+[32m2025-03-12 10:50:19 info: [AuthService] service - login init [39m
+[32m2025-03-12 10:50:19 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 10:50:21 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 10:50:21 info: [AuthService] service - login finish [39m
+[32m2025-03-12 10:50:21 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 11:16:04 info: [AuthController] controller - login init [39m
+[32m2025-03-12 11:16:04 info: [AuthService] service - login init [39m
+[32m2025-03-12 11:16:04 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-12 11:16:06 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-12 11:16:06 info: [AuthService] service - login finish [39m
+[32m2025-03-12 11:16:06 info: [AuthController] controller - login finish [39m
+[32m2025-03-12 11:16:23 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:16:23 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:16:23 error: [AuthService] service - refreshToken error Cannot access 'refreshToken' before initialization [39m
+[31mReferenceError: Cannot access 'refreshToken' before initialization[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:45)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:42:9)[39m
+[32m2025-03-12 11:16:23 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:17:19 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:17:19 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:17:19 error: [AuthService] service - refreshToken error Cannot access 'refreshToken' before initialization [39m
+[31mReferenceError: Cannot access 'refreshToken' before initialization[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:45)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:42:9)[39m
+[32m2025-03-12 11:17:19 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:18:40 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:18:40 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:18:40 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[32m2025-03-12 11:18:40 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:19:38 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:19:38 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:19:38 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[32m2025-03-12 11:19:38 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:21:07 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:21:07 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:21:07 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:43:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[32m2025-03-12 11:21:07 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:22:03 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:22:03 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:22:03 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[32m2025-03-12 11:22:03 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:23:53 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:23:53 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:23:53 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:60:12)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:39:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[32m2025-03-12 11:23:53 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:27:10 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:27:10 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:27:10 error: [AuthService] service - refreshToken error Cannot read properties of undefined (reading 'id') [39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:45:63)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/schemas/auth/index.js:44:9)[39m
+[32m2025-03-12 11:27:10 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:29:43 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:29:43 info: [AuthService] service - refreshToken init [39m
+[32m2025-03-12 11:29:43 info: [AuthService] service - refreshToken finish [39m
+[32m2025-03-12 11:29:43 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:29:56 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:29:56 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:29:56 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[32m2025-03-12 11:29:56 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:32:31 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:32:31 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:32:31 error: [AuthService] service - refreshToken error Refresh token is invalid! [39m
+[31mError: Refresh token is invalid![39m
+[31m    at file:///E:/projetos/backend-aws/src/app/services/auth/index.js:41:27[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:14[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[32m2025-03-12 11:32:31 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:33:56 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:33:56 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:33:56 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:39:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[32m2025-03-12 11:33:56 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-12 11:35:07 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:35:07 info: [AuthService] service - refreshToken init [39m
+[31m2025-03-12 11:35:07 error: [AuthService] service - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:35:07 error: [AuthController] controller - refreshToken error invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m2025-03-12 11:35:07 error: invalid signature [39m
+[31mJsonWebTokenError: invalid signature[39m
+[31m    at E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:171:19[39m
+[31m    at getSecret (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:97:14)[39m
+[31m    at module.exports [as verify] (E:\projetos\backend-aws\node_modules\jsonwebtoken\verify.js:101:10)[39m
+[31m    at AuthService.refreshToken (file:///E:/projetos/backend-aws/src/app/services/auth/index.js:40:38)[39m
+[31m    at refreshToken (file:///E:/projetos/backend-aws/src/app/controllers/auth/index.js:37:58)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[31m    at Layer.handle [as handle_request] (E:\projetos\backend-aws\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (E:\projetos\backend-aws\node_modules\express\lib\router\route.js:149:13)[39m
+[31m    at AuthMiddleware.authMiddleware (file:///E:/projetos/backend-aws/src/app/middlewares/auth/index.js:4:13)[39m
+[31m    at newFn (E:\projetos\backend-aws\node_modules\express-async-errors\index.js:16:20)[39m
+[32m2025-03-12 11:35:15 info: [AuthController] controller - refreshToken init [39m
+[32m2025-03-12 11:35:15 info: [AuthService] service - refreshToken init [39m
+[32m2025-03-12 11:35:15 info: [AuthService] service - refreshToken finish [39m
+[32m2025-03-12 11:35:15 info: [AuthController] controller - refreshToken finish [39m
+[32m2025-03-18 17:14:49 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:14:49 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:14:49 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:14:51 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:14:51 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:14:51 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:16:56 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:16:56 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:16:56 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:16:58 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:16:58 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:16:58 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:18:26 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:18:26 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:18:26 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:18:27 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:18:27 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:18:27 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:22:31 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:22:31 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:22:31 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:22:32 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:22:32 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:22:32 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:23:28 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:23:28 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:23:28 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:23:29 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:23:29 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:23:29 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:27:13 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:27:13 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:27:13 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:27:14 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:27:14 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:27:14 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:31:19 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:31:19 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:31:19 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:31:19 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:31:20 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:31:20 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:34:30 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:34:30 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:34:30 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:34:31 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:34:31 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:34:31 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 17:35:16 info: [AuthController] controller - login init [39m
+[32m2025-03-18 17:35:16 info: [AuthService] service - login init [39m
+[32m2025-03-18 17:35:16 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 17:35:17 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 17:35:17 info: [AuthService] service - login finish [39m
+[32m2025-03-18 17:35:17 info: [AuthController] controller - login finish [39m
+[32m2025-03-18 20:10:23 info: [AuthController] controller - login init [39m
+[32m2025-03-18 20:10:23 info: [AuthService] service - login init [39m
+[32m2025-03-18 20:10:23 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-18 20:10:25 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-18 20:10:25 info: [AuthService] service - login finish [39m
+[32m2025-03-18 20:10:25 info: [AuthController] controller - login finish [39m
+[32m2025-03-21 17:20:26 info: [AuthController] controller - login init [39m
+[32m2025-03-21 17:20:26 info: [AuthService] service - login init [39m
+[32m2025-03-21 17:20:26 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-21 17:20:28 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-21 17:20:28 info: [AuthService] service - login finish [39m
+[32m2025-03-21 17:20:28 info: [AuthController] controller - login finish [39m
+[32m2025-03-21 17:46:10 info: [AuthController] controller - login init [39m
+[32m2025-03-21 17:46:10 info: [AuthService] service - login init [39m
+[32m2025-03-21 17:46:10 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-21 17:46:10 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-21 17:46:11 info: [AuthService] service - login finish [39m
+[32m2025-03-21 17:46:11 info: [AuthController] controller - login finish [39m
+[32m2025-03-21 21:41:47 info: [AuthController] controller - login init [39m
+[32m2025-03-21 21:41:47 info: [AuthService] service - login init [39m
+[32m2025-03-21 21:41:47 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-21 21:41:48 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-21 21:41:48 info: [AuthService] service - login finish [39m
+[32m2025-03-21 21:41:48 info: [AuthController] controller - login finish [39m
+[32m2025-03-21 21:48:18 info: [AuthController] controller - login init [39m
+[32m2025-03-21 21:48:18 info: [AuthService] service - login init [39m
+[32m2025-03-21 21:48:18 info: [AuthRepository] repository - findByEmail init [39m
+[32m2025-03-21 21:48:19 info: [AuthRepository] repository - findByEmail finish [39m
+[32m2025-03-21 21:48:19 info: [AuthService] service - login finish [39m
+[32m2025-03-21 21:48:19 info: [AuthController] controller - login finish [39m

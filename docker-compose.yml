@@ -1,0 +1,53 @@
+version: '3.8'
+volumes:
+  mariadb_data:
+networks:
+  softphone-network:
+    driver: bridge
+services:
+  asterisk:
+    build:
+      context: ./asterisk
+      dockerfile: Dockerfile
+    container_name: asterisk
+    ports:
+      - "5060:5060"
+      - "8088:8088" # Porta do HTTP
+      - "8089:8089" # Porta do HTTP
+      - "3306:3306"
+      - "5038:5038"
+    volumes:
+      - ./asterisk/configs:/etc/asterisk
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - softphone-network
+  # web:
+  #   build:
+  #     context: ./web
+  #     dockerfile: Dockerfile
+  #     target: dev  # Use a etapa de desenvolvimento do Dockerfile
+  #   container_name: web
+  #   volumes:
+  #     - ./web:/softphone  # Monta o diretório de desenvolvimento no contêiner
+  #     - /web/node_modules
+  #     - ./web/nginx/default.conf:/etc/nginx/conf.d/default.conf
+  #   ports:
+  #     - 80:80
+  #   networks:
+  #     - softphone-network
+  #   depends_on:
+  #     - api
+  #     - asterisk
+  #   # command: npm run dev
+  # api:
+  #   build: 
+  #     context: ./api
+  #     dockerfile: Dockerfile
+  #   container_name: api
+  #   #modo dev 5000
+  #   ports:
+  #     - 5000:5000
+  #   networks:
+  #     - softphone-network
+  #   depends_on:
+  #     - asterisk
