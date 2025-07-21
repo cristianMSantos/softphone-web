@@ -17,6 +17,7 @@ RUN apt-get update && \
     libssl-dev \
     libedit-dev \
     libcurl4-openssl-dev \
+    libwebsockets-dev \
     pkg-config \
     unixodbc \
     unixodbc-dev \
@@ -29,10 +30,10 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Baixe e extraia o Asterisk
-RUN curl -sL http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20.12.0.tar.gz | tar xz -C /usr/src
+RUN curl -sL http://downloads.asterisk.org/pub/telephony/asterisk/old-releases/asterisk-20.14.1.tar.gz | tar xz -C /usr/src
 
 # Defina o diretório de trabalho
-WORKDIR /usr/src/asterisk-20.12.0
+WORKDIR /usr/src/asterisk-20.14.1
 
 # Configure, compile e instale o Asterisk
 RUN ./configure && \
@@ -73,6 +74,9 @@ RUN mkdir -p /run/mysqld && chown mysql:mysql /run/mysqld
 
 # Para dar acesso ao banco de dados para fora do container
 COPY ./mariadb/50-server.cnf /etc/mysql/mariadb.conf.d/50-server.cnf
+
+# Copie o dump SQL
+COPY ./mariadb/init.sql /dump/init.sql
 
 # Copie o script de entrada
 COPY ./entrypoint.sh /entrypoint.sh

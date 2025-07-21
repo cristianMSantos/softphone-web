@@ -1,4 +1,4 @@
-version: '3.8'
+#version: '3.8'
 volumes:
   mariadb_data:
 networks:
@@ -10,12 +10,20 @@ services:
       context: ./asterisk
       dockerfile: Dockerfile
     container_name: asterisk
+    # ports:
+    #   - "5060:5060"
+    #   - "8088:8088" # Porta do HTTP
+    #   - "8089:8089" # Porta do HTTP
+    #   - "3306:3306"
+    #   - "5038:5038"
     ports:
-      - "5060:5060"
-      - "8088:8088" # Porta do HTTP
-      - "8089:8089" # Porta do HTTP
-      - "3306:3306"
-      - "5038:5038"
+    - "5060:5060/udp"
+    - "5060:5060/tcp"   # opcional, mas bom ter TCP para SIP
+    - "10000-10100:10000-10100/udp" # RTP para áudio (faixa típica)
+    - "8088:8088" # Porta do HTTP
+    - "8089:8089" # Porta do HTTP
+    - "3306:3306"
+    - "5038:5038"
     volumes:
       - ./asterisk/configs:/etc/asterisk
       - mariadb_data:/var/lib/mysql
